@@ -3,7 +3,7 @@ const { red, green, blue, yellow, cyan } = require('chalk');
 const client = new Client();
 client.login("NzU4MzEyOTc4NjUwMzY1OTYy.X9uTmA.ZX1fAjrhtwKvjh5RNayeuxfvUX4");
 const channelid = "782676217731612711";
-var yourid = "758312978650365962"
+
 
 function daily(interval) {
   setInterval(() => {
@@ -33,7 +33,7 @@ client.on("message", async message => {
 if(message.author.id === "270904126974590976")
 {
 console.log(message.content)
-if(message.content.includes(yourid))
+if(message.content.includes("758312978650365962"))
 {
   if(message.content.includes("search?")) //pls search command has been used
   {
