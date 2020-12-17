@@ -3,7 +3,7 @@ const { red, green, blue, yellow, cyan } = require('chalk');
 const client = new Client();
 client.login("NzU4MzEyOTc4NjUwMzY1OTYy.X9uTmA.ZX1fAjrhtwKvjh5RNayeuxfvUX4");
 const channelid = "782676217731612711";
-const yourid = "758312978650365962"
+var yourid = "758312978650365962"
 
 function daily(interval) {
   setInterval(() => {
