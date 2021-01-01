@@ -1,9 +1,9 @@
 const { Client, RichEmbed } = require('discord.js');
 const { red, green, blue, yellow, cyan } = require('chalk');
 const client = new Client();
-client.login("NzU4MzEyOTc4NjUwMzY1OTYy.X9zVUA.L1Dfq3zs-yzXYVTLlwFeu1dgbBs");
-const channelid = "782676217731612711";
-const yourid = "758312978650365962"
+client.login("your discord token");
+const channelid = "channel id (where you want to send messages)";
+const yourid = "your dicord id here"
 
 function daily(interval) {
   setInterval(() => {
